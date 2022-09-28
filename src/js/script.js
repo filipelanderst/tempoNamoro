@@ -11,7 +11,7 @@ function relogioNamoro() {
 
   const dataCorrida = `${anos} anos:${meses}:${dias}:${horas}:${minutos}:${segundos}`;
   const miliPorDias = 864000000;
-  const namoroEmDias = (dataNamoro / miliPorDias).toFixed() - 51;
+  const namoroEmDias = (dataNamoro / miliPorDias - 49.4).toFixed();
 
   const txtDias = document.querySelector('.num-dias');
   txtDias.innerHTML = namoroEmDias;
@@ -21,8 +21,3 @@ function relogioNamoro() {
 }
 
 setInterval(relogioNamoro, 1000);
-
-// -------------------------------------
-// console.log(
-//   `Hoje está fazendo ${anos} anos, ${meses} meses, ${dias} dias, ${horas} horas, ${minutos} minutos e ${segundos} segundos que a gente está junto`
-// );

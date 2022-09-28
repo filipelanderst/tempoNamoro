@@ -1,0 +1,87 @@
+* {
+  /* —————————————————— {Global} ——————————————————*/
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+@font-face {
+  font-family: 'cherolinaregular';
+  src: url(../fonts/cherolina-webfont.woff2) format('woff2'),
+    url(../fonts/cherolina-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* —————————————————— {Principal} ——————————————————*/
+
+.container {
+  margin: 4rem auto;
+  text-align: center;
+  max-width: 600px;
+}
+
+.coracao {
+  width: 2rem;
+}
+
+.dias-namoro {
+  display: grid;
+  margin-top: -2rem;
+}
+
+.div-dias {
+  display: grid;
+}
+
+.foto-coracao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 15%;
+}
+
+.img-rounded {
+  width: 6rem;
+  height: 6rem;
+  border: 3px solid #ed1b24;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+
+.nome-casal {
+  font-family: 'cherolinaregular';
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.num-dias {
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.texto {
+  font-family: 'Montserrat';
+  margin: 0 2rem;
+}
+
+.texto span {
+  font-weight: 500;
+}
+
+.txt-dias {
+  font-family: 'cherolinaregular';
+  font-size: 3rem;
+  margin: -1rem 0 1rem 0;
+}
+
+/* —————————————————— {@media} ——————————————————*/
+
+@media (max-width: 420px) {
+  HTML {
+    font-size: 14px;
+  }
+}
