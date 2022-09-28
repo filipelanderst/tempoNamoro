@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-family: 'cherolina';
+  font-family: 'Cherolina';
   src: url(/src/fonts/Cherolina.ttf);
 }
 
@@ -17,7 +17,7 @@
 }
 
 .container {
-  margin: 30vh auto;
+  margin: 10vh auto;
   text-align: center;
   max-width: 600px;
 }
