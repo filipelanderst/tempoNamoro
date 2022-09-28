@@ -6,13 +6,15 @@
 }
 
 @font-face {
-  font-family: Cherolina;
-  src: url(../fonts/Cherolina.ttf);
-  src: url(../fonts/Cherolina.otf);
+  font-family: 'cherolinaregular';
+  src: url(../fonts/cherolina-webfont.woff2) format('woff2'),
+    url(../fonts/cherolina-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .nome-casal {
-  font-family: 'Cherolina';
+  font-family: 'cherolinaregular';
   font-size: 4rem;
   font-weight: 200;
 }
@@ -34,7 +36,7 @@
 }
 
 .txt-dias {
-  font-family: 'cherolina';
+  font-family: 'cherolinaregular';
   font-size: 3rem;
   margin: -1rem 0 1rem 0;
 }
