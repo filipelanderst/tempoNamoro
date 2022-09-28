@@ -7,7 +7,8 @@
 
 @font-face {
   font-family: 'Cherolina';
-  src: url(/src/fonts/Cherolina.ttf);
+  src: url(/src/css/Cherolina.ttf);
+  src: url(/src/css/Cherolina.otf);
 }
 
 .nome-casal {
@@ -17,7 +18,7 @@
 }
 
 .container {
-  margin: 10vh auto;
+  margin: 4rem auto;
   text-align: center;
   max-width: 600px;
 }
@@ -68,10 +69,8 @@
 }
 
 .texto span {
-  color: #ed1b24;
+  /* color: #ed1b24; */
   font-weight: 500;
-  opacity: 0.9;
-  /* border-bottom: 1px solid red; */
 }
 
 @media (max-width: 560px) {
