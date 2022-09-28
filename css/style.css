@@ -7,8 +7,8 @@
 
 @font-face {
   font-family: 'Cherolina';
-  src: url(/src/css/Cherolina.ttf);
-  src: url(/src/css/Cherolina.otf);
+  src: url(/fonts/Cherolina.ttf);
+  src: url(/fonts/Cherolina.otf);
 }
 
 .nome-casal {
