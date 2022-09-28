@@ -6,9 +6,9 @@
 }
 
 @font-face {
-  font-family: 'Cherolina';
-  src: url(/fonts/Cherolina.ttf);
-  src: url(/fonts/Cherolina.otf);
+  font-family: Cherolina;
+  src: url(../fonts/Cherolina.ttf);
+  src: url(../fonts/Cherolina.otf);
 }
 
 .nome-casal {
