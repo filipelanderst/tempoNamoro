@@ -23,29 +23,17 @@
   max-width: 600px;
 }
 
-.coracao {
-  width: 2rem;
-}
-
 .dias-namoro {
   display: grid;
-  margin-top: -2rem;
 }
 
 .div-dias {
   display: grid;
 }
 
-.foto-coracao {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 2rem 15%;
-}
-
 .img-rounded {
-  width: 6rem;
-  height: 6rem;
+  width: 12rem;
+  height: 12rem;
   border: 3px solid #ed1b24;
   border-radius: 50%;
   padding: 0.2rem;
@@ -61,6 +49,8 @@
   font-family: 'Montserrat';
   font-size: 2rem;
   font-weight: 300;
+  display: block;
+  margin-top: 1rem;
 }
 
 .texto {
@@ -80,7 +70,7 @@
 
 /* —————————————————— {@media} ——————————————————*/
 
-@media (max-width: 420px) {
+@media (max-width: 460px) {
   HTML {
     font-size: 14px;
   }
